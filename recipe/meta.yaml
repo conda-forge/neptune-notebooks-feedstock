@@ -20,6 +20,7 @@ requirements:
   host:
     - pip
     - python
+    - nodejs
   run:
     - python
     - click >=7.0
