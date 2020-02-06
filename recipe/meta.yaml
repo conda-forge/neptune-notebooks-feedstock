@@ -33,7 +33,6 @@ requirements:
 test:
   imports:
     - neptune_notebooks
-    - tests.neptune_notebooks
     - tests.neptune_notebooks_plugin
 
 about:
