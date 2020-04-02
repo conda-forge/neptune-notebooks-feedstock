@@ -1,20 +1,20 @@
 {% set name = "neptune-notebooks" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.15" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz"
-  sha256: 94900d82b0b846a132ab416486cf30456c19d5a3198bd4d9c93e4da681fe9322
+  url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
+  sha256: 6499ba092510f45fe8c7c18a5b916e7e0084bb4e69e65170d14817ca415a6513
 
 build:
   noarch: python
   number: 0
   entry_points:
     - neptune_notebooks = neptune_notebooks_plugin:notebook
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
@@ -35,13 +35,13 @@ test:
     - neptune_notebooks
 
 about:
-  home: "https://neptune.ai/"
+  home: https://neptune.ai/
   license: Apache-2.0
-  license_family: "APACHE"
-  license_file: "LICENSE"
-  summary: "Neptune's integration with Jupiter and JupiterLab notebooks"
-  doc_url: "https://docs.neptune.ai"
-  dev_url: "https://github.com/neptune-ai/neptune-notebooks"
+  license_family: APACHE
+  license_file: LICENSE
+  summary: Neptune's integration with Jupiter and JupiterLab notebooks
+  doc_url: https://docs.neptune.ai
+  dev_url: https://github.com/neptune-ai/neptune-notebooks
 
 extra:
   recipe-maintainers:
