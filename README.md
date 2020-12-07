@@ -5,11 +5,13 @@ Home: https://neptune.ai/
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neptune-notebooks-feedstock/blob/master/LICENSE.txt)
 
 Summary: Neptune's integration with Jupiter and JupiterLab notebooks
 
+Development: https://github.com/neptune-ai/neptune-notebooks
 
+Documentation: https://docs.neptune.ai
 
 Current build status
 ====================
