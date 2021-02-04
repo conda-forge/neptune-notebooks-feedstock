@@ -1,5 +1,5 @@
 {% set name = "neptune-notebooks" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
-  sha256: 92f4cff91dbd5dea585f79a21a2d37f0a066c9d8a2f071d9910343d4a521d017
+  sha256: 2d044ba92867943419fa20b42e37ff0b4532f0e19c9ee857c5a536e456f08583
 
 build:
   noarch: python
