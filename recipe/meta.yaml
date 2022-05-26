@@ -1,5 +1,5 @@
 {% set name = "neptune-notebooks" %}
-{% set version = "0.0.19" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
-  sha256: 2d044ba92867943419fa20b42e37ff0b4532f0e19c9ee857c5a536e456f08583
+  sha256: 860c7cfce7ad398fb5f81a94bfd9ba8845e4af4d1ffa6649f460684e7738f6cf
 
 build:
   noarch: python
@@ -45,7 +45,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - szymon-kuklewicz
     - aniezurawski
-    - hubertjaworskineptune
+    - HubertJaworski
+    - shnela
     - pitercl
+    - Raalsky
