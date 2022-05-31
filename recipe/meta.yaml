@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
-  sha256: 9fd31e91029a9470227bd6f23f358a2f8e763614d59d2434dfbda6d476e2a0e5
+  sha256: 0a104990d61e85e7ad82185f28933549b5551c036a7947d358fdf608c746abab
 
 build:
   noarch: python
