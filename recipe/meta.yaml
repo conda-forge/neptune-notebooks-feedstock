@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/neptune-notebooks/archive/js/fix-failing-build-prototype.tar.gz
-  sha256: 9fa9cb2c8cbbb54a1670e0f299722b8eec7b2ceecf6c32b12788c001aa558f0f
+  sha256: bdbebf01ad5e408e20dff805a042b50c8d60c56fddcb57855724e31853e9d52e
 
 build:
   noarch: python
