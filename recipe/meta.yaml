@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
+  url: https://github.com/neptune-ai/neptune-notebooks/archive/js/fix-failing-build-prototype.tar.gz
   sha256: 9fa9cb2c8cbbb54a1670e0f299722b8eec7b2ceecf6c32b12788c001aa558f0f
 
 build:
   noarch: python
-  number: 1
+  number: 2
   entry_points:
     - neptune_notebooks = neptune_notebooks_plugin:notebook
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
