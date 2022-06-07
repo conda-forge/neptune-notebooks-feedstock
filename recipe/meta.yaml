@@ -1,13 +1,12 @@
 {% set name = "neptune-notebooks" %}
-{% set version = "0.0.19" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/neptune-ai/neptune-notebooks/archive/js/fix-failing-build-prototype.tar.gz
-  sha256: bdbebf01ad5e408e20dff805a042b50c8d60c56fddcb57855724e31853e9d52e
+  url: https://github.com/neptune-ai/neptune-notebooks/archive/{{ version }}.tar.gz
 
 build:
   noarch: python
