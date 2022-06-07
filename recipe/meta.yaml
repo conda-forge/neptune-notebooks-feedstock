@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 3
   entry_points:
     - neptune_notebooks = neptune_notebooks_plugin:notebook
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - nodejs <=14
+    - nodejs
     - openjdk
   run:
     - python >=3.6
