@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - nodejs
+    - nodejs <=14
     - openjdk
   run:
     - python >=3.6
